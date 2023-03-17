@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+    }
+    
+
+    .navbar-nav .nav-link.active{
+        font-family: 'Roboto Slab', serif;
+    }
+
+    
+
+
+    .nav-link {
+        text-align: center;
+        color: #93aee9;
+        
+    }
+
+    .nav {
+        align-items: center;
+
+    }
+
+    .nav-link:hover {
+        background-color: rgb(236, 236, 234);
+    }
+
+    header {
+        background-color: rgb(0, 59, 159);
+        color: white;
+    }
+
+    .imgbr {
+        border-radius: 100%;
+        max-width: 20px;
+        
+        
+    }
+
+    .imgbra {
+        padding-left: px;
+        
+    }
+
+    .h1f {
+        padding-right: 10px;
+    }
+
+    .carousel-item img {
+        filter: brightness(50%);
+    }
+
+    .carousel {
+    height: 50vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+
+.fundo-cinza {
+    padding: 100px;
+    background-color: rgb(0, 59, 159);
+}
+
+.fundo-cinza h1{
+    color: antiquewhite;
+}
+
+.fundo-cinza h2 {
+    color: rgba(250, 235, 215, 0.452);
+}
+
+.linha-de-baixo {
+    max-width: 37%;
+    border: 2px solid rgb(255, 240, 240);
+}
+
+.titulo1 {
+    padding-top: 30px;
+}
+
+.row .card {
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+</style>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+            <h1 class="h1f">Booking.com</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img class="imgbr imgbra" src="img/br.png" alt="">
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cadastre-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <div class="carousel slide carouselL" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="aa">
+                <div class="carousel-caption">
+                    <h2>Maldivas</h2>
+                </div>
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img src="https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="carousel-caption">
+                    <h2>Paris - France</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="carousel-caption">
+                    <h2>Londres - Inglaterra</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://images.pexels.com/photos/1049298/pexels-photo-1049298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="carousel-caption">
+                    <h2>Rio de janeiro - Brazil</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fundo-cinza">
+        <div class="container">
+            <h1>Encontre sua próxima estadia</h1>
+            <div class="linha-de-baixo">
+            </div>
+            <h2>Encontre ofertas em hotéis, casas, apartamentos e muito mais...</h2>
+        </div>
+    </div>
+    <div class="titulo1 container">
+        <h1>Cidades em alta</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                <img src="https://q-xx.bstatic.com/xdata/images/city/410x307/653640.jpg?k=66f365c9e80f972138bd83f2ad35dffb056c7e14338b888fc8ebdc73e5886ba6&o=" alt="RJ">
+                <div class="card-body">
+                    <h4 class="card-tittle">Rio de janeiro, Brazil</h4>
+                    <h5 class="card-subtitle">Voos de Congonhas 15 de junho a 20 de junho Ida e volta</h5>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                <img src="https://q-xx.bstatic.com/xdata/images/city/410x307/619964.jpg?k=7e2df42a96dbbc8ccb8fa9446e4b63cf7bebe4123a41e387314ce3538eea0df7&o=" alt="Lisboa">
+                <div class="card-body">
+                    <h4 class="card-tittle">Lisboa, Portugal</h4>
+                    <h5 class="card-subtitle">Voos de Congonhas 18 de março a 25 de março Ida e volta</h5>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                <img src="https://q-xx.bstatic.com/xdata/images/city/410x307/613094.jpg?k=f751e035ae2c0ac97263ed7d150bae607ffa17a88c55e81cec907941d6bb078b&o=" alt="Londres">
+                <div class="card-body">
+                    <h4 class="card-tittle">Londres, Inglaterra</h4>
+                    <h5 class="card-subtitle">Voos de Congonhas 17 de dezembro a 25 de dezembro Ida e volta</h5>
+                    <a href="#" class="btn btn-primary">Checkout</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
